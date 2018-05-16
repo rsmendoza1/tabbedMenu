@@ -1,0 +1,64 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #153728;
+}
+p {
+	font-size: .90em;
+}
+h1 {
+	font-size: 0.95em;
+	margin-bottom: 10px;
+}
+#mainContent {
+	height: 600px;
+	width: 645px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	padding: 140px 70px 0px 100px;
+}
+
+#navButtons {
+	position: absolute;
+	right: 0px;
+	bottom: 150px;
+	z-index: 99;
+	padding: 0px;
+}
+#mDescrip {
+	width: 620px;
+	height: 220px;
+	border: 2px solid #A9A9A9;
+	padding: 10px;
+}
+#monsterNav{
+	margin: 0;
+	padding: 3px 0px;
+	width: 100%;
+	list-style: none;
+}
+#monsterNav li{
+	display: inline;
+	background: #A9A9A9;;
+	border: 1px solid #888;
+	border-bottom: 0;
+	margin-right:2px;
+	padding: 3px;
+	color: #FFF;
+}
+#monsterNav a {
+	color: #FFF;
+	text-decoration: none;
+}
+#monsterNav li a:hover{
+	color:royalblue;
+}
+#monsterNav li.current {
+	background: #A9A9A9;
+	padding-bottom: 4px;
+}
